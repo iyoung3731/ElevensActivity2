@@ -85,6 +85,14 @@ public class Deck {
      */
     public Card deal() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        int temp = size;
+        if(temp = 0) {
+            return null;
+        }
+        else{
+            size--;
+            return cards.get(temp);
+        }
     }
 
     /**
